@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.svg";
+import Skillcard from "./SkillCard";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -14,35 +14,35 @@ function About() {
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
-            md={7}
+            md={8}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
+              paddingTop: "20px",
+              paddingBottom: "30px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+            <h1 className="project-heading">
+              About <strong className="purple">Me </strong>
             </h1>
-            <Aboutcard />
-          </Col>
-          <Col
-            md={12}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
+            <Aboutcard />  
           </Col>
         </Row>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
-
+        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Col
+            md={8}
+            style={{
+              justifyContent: "center",
+              paddingTop: "20px",
+              paddingBottom: "30px",
+            }}
+          >
+            <Skillcard />
+          </Col>
+          </Row>
         <Techstack />
-
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
 
         <Github />
       </Container>
