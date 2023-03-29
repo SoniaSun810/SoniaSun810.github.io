@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/soniasun810.github.io/static/css/main.e33fc890.css",
-    "main.js": "/soniasun810.github.io/static/js/main.a7467e44.js",
-    "static/js/415.fc063c41.chunk.js": "/soniasun810.github.io/static/js/415.fc063c41.chunk.js",
-    "static/js/787.f6e65957.chunk.js": "/soniasun810.github.io/static/js/787.f6e65957.chunk.js",
-    "static/media/leaf.png": "/soniasun810.github.io/static/media/leaf.ff2616f664c8c0ceab91.png",
-    "static/media/emotion.png": "/soniasun810.github.io/static/media/emotion.eabfc16e7a146ab15778.png",
-    "static/media/suicide.png": "/soniasun810.github.io/static/media/suicide.9c86cd7138a398c45fa5.png",
-    "static/media/codeEditor.png": "/soniasun810.github.io/static/media/codeEditor.1b585492490c8c1cace9.png",
-    "static/media/blog.png": "/soniasun810.github.io/static/media/blog.fb8ab7f271a937d5fc01.png",
-    "static/media/chatify.png": "/soniasun810.github.io/static/media/chatify.7206044e0b5cdad44726.png",
-    "static/media/home-bg.jpg": "/soniasun810.github.io/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/avatar.svg": "/soniasun810.github.io/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
-    "static/media/home-main.svg": "/soniasun810.github.io/static/media/home-main.3c7f4ecc4c403530fd81b53f4c621b40.svg",
-    "static/media/about.svg": "/soniasun810.github.io/static/media/about.e7aab3caa420cf34cebabf40127f5232.svg",
-    "static/media/pre.svg": "/soniasun810.github.io/static/media/pre.d4812f51c8c80976eaab.svg",
-    "index.html": "/soniasun810.github.io/index.html",
-    "main.e33fc890.css.map": "/soniasun810.github.io/static/css/main.e33fc890.css.map",
-    "main.a7467e44.js.map": "/soniasun810.github.io/static/js/main.a7467e44.js.map",
-    "415.fc063c41.chunk.js.map": "/soniasun810.github.io/static/js/415.fc063c41.chunk.js.map",
-    "787.f6e65957.chunk.js.map": "/soniasun810.github.io/static/js/787.f6e65957.chunk.js.map"
+    "main.css": "/static/css/main.9c98a7d7.css",
+    "main.js": "/static/js/main.9e5348f3.js",
+    "static/js/415.fc063c41.chunk.js": "/static/js/415.fc063c41.chunk.js",
+    "static/js/787.f6e65957.chunk.js": "/static/js/787.f6e65957.chunk.js",
+    "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
+    "static/media/emotion.png": "/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/blog.png": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/chatify.png": "/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/home-main.svg": "/static/media/home-main.3c7f4ecc4c403530fd81b53f4c621b40.svg",
+    "static/media/about.svg": "/static/media/about.e7aab3caa420cf34cebabf40127f5232.svg",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.9c98a7d7.css.map": "/static/css/main.9c98a7d7.css.map",
+    "main.9e5348f3.js.map": "/static/js/main.9e5348f3.js.map",
+    "415.fc063c41.chunk.js.map": "/static/js/415.fc063c41.chunk.js.map",
+    "787.f6e65957.chunk.js.map": "/static/js/787.f6e65957.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e33fc890.css",
-    "static/js/main.a7467e44.js"
+    "static/css/main.9c98a7d7.css",
+    "static/js/main.9e5348f3.js"
   ]
 }
