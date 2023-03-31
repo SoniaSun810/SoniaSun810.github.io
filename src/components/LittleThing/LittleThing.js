@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "../About/Github";
-import AboutCard from "../About/AboutCard";
+import IdeaCard from "./IdeaCard";
 
 function LittleThing() {
   return (
@@ -19,12 +18,11 @@ function LittleThing() {
             }}
           >
             <h1 className="project-heading">
-              About <strong className="purple">Me </strong>
+            <strong className="purple">CoverLetter Generator </strong>with Integrated <strong className="purple">chatgpt3</strong> is on the way 
             </h1>
-            <AboutCard />  
+            <IdeaCard />  
           </Col>
         </Row>
-        <Github />
       </Container>
     </Container>
   );
