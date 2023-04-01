@@ -22,7 +22,7 @@ function IdeaCard() {
             better in the form of products.
             <br />
             <br />
-            • We still lack imagination in the application scenarios
+            • We still lack imagination in the application scenarios.
             <br />
             <br />
           </p>

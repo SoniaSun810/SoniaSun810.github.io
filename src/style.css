@@ -606,6 +606,7 @@ button:focus {
     padding-top: 0 !important;
   }
 }
+
 /* --------- */
 /* Resume */
 /* --------- */
@@ -748,4 +749,21 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+/* --------- */
+/* LittleThing */
+/* --------- */
+.multi-selection {
+  position: relative !important;
+  padding-top: 0px !important;
+  padding-bottom: 10px !important;
+  /* background-image: var(--section-background-color) !important; */
+  color: rgb(66, 65, 65) !important;
+}
+
+.coverletter-card-view {
+  border: none !important;
+  color: rgb(128, 123, 123) !important;
+  background-color: pink !important;
 }

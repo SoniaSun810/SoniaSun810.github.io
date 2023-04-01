@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
+import CoverLetter from "./CoverLetter";
 import IdeaCard from "./IdeaCard";
 
 function LittleThing() {
@@ -18,9 +19,11 @@ function LittleThing() {
             }}
           >
             <h1 className="project-heading">
-            <strong className="purple">CoverLetter Generator </strong>with Integrated <strong className="purple">chatgpt3</strong> is on the way 
+              <strong className="purple">CoverLetter Generator </strong>with
+              Integrated <strong className="purple">chatgpt3.5</strong>
             </h1>
-            <IdeaCard />  
+            <CoverLetter />
+            <IdeaCard />
           </Col>
         </Row>
       </Container>
