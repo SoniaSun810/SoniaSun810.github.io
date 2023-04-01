@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.4daf3441.css",
-    "main.js": "/static/js/main.ee874bd0.js",
-    "static/js/415.fc063c41.chunk.js": "/static/js/415.fc063c41.chunk.js",
-    "static/js/787.f6e65957.chunk.js": "/static/js/787.f6e65957.chunk.js",
+    "main.css": "/static/css/main.4f735a26.css",
+    "main.js": "/static/js/main.f733a394.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/jobify3.png": "/static/media/jobify3.ff36d0047c5efd506a0a.png",
     "static/media/jobify2.png": "/static/media/jobify2.dfd7fa823171cf848c26.png",
     "static/media/jobify1.png": "/static/media/jobify1.484cacde5326d77c70f8.png",
@@ -15,13 +15,13 @@
     "static/media/home-main.svg": "/static/media/home-main.3c7f4ecc4c403530fd81b53f4c621b40.svg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.4daf3441.css.map": "/static/css/main.4daf3441.css.map",
-    "main.ee874bd0.js.map": "/static/js/main.ee874bd0.js.map",
-    "415.fc063c41.chunk.js.map": "/static/js/415.fc063c41.chunk.js.map",
-    "787.f6e65957.chunk.js.map": "/static/js/787.f6e65957.chunk.js.map"
+    "main.4f735a26.css.map": "/static/css/main.4f735a26.css.map",
+    "main.f733a394.js.map": "/static/js/main.f733a394.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4daf3441.css",
-    "static/js/main.ee874bd0.js"
+    "static/css/main.4f735a26.css",
+    "static/js/main.f733a394.js"
   ]
 }
