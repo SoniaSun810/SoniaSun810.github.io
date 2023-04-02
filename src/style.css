@@ -758,7 +758,7 @@ button:focus {
 }
 
 /* --------- */
-/* LittleThing */
+/* LittleThing GPT */
 /* --------- */
 .multi-selection {
   position: relative !important;
@@ -771,7 +771,7 @@ button:focus {
 .coverletter-card-view {
   border: none !important;
   color: rgb(128, 123, 123) !important;
-  background-image: linear-gradient(to bottom right, rgb(245, 125, 183), rgb(251, 194, 240)) !important;
+  background-image: linear-gradient(to bottom right, rgb(249, 151, 177), rgb(251, 194, 240)) !important;
 }
 
 .completion-card-view {
@@ -784,4 +784,17 @@ button:focus {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+.input-group {
+  padding-top: 27px !important;
+  position: relative !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: stretch !important;
+  width: 100% !important;
+}
+
+.input-form {
+  padding-top: 20px;
 }

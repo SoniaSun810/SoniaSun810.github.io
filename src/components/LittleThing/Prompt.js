@@ -112,7 +112,7 @@ const PromptCard = () => {
           </div>
           <Form>
             {/* form for company name and location */}
-            <InputGroup className="mb-3">
+            <InputGroup className="mb-3 input-group">
               <Form.Control
                 placeholder="Company Name"
                 aria-label="company name"
