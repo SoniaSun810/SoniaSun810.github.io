@@ -1,10 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import CoverLetter from "./CoverLetter";
+import PromptCard from "./Prompt";
 import IdeaCard from "./IdeaCard";
+import { useAppContext } from "../../Context/appContext";
+import CompletionCard from "./Completion";
 
 function LittleThing() {
+  const { displayPrompt, displayCompletion } = useAppContext();
+
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -20,9 +24,9 @@ function LittleThing() {
           >
             <h1 className="project-heading">
               <strong className="purple">CoverLetter Generator </strong>with
-              Integrated <strong className="purple">chatgpt3.5</strong>
+              Integrated <strong className="purple">GPT-3.5</strong>
             </h1>
-            <CoverLetter />
+            {displayPrompt ? <PromptCard /> : <CompletionCard />}
             <IdeaCard />
           </Col>
         </Row>

@@ -24,6 +24,10 @@ function Home() {
                 I'm
                 <strong className="main-name"> Fengnan Sonia Sun</strong>
               </h1>
+              <h1 className="main-paragraph">
+                Currently working on a project using a fine-tuned GPT-3
+                model. Click on MyAppOpen AI to try...{" "}
+              </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />

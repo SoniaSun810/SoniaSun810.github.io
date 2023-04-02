@@ -1,63 +1,64 @@
-import React, {useReducer, useContex} from "react";
-import {reducer, initialState} from "./reducer";
+import React, { useReducer, useContext } from "react";
+import reducer from "./reducers";
 import axios from "axios";
 
-import {DISPLAY_COVERRLETTER,
-    DISPLAY_COMPLETION,} from "./action";
+import {
+  DISPLAY_COVERRLETTER,
+  DISPLAY_COMPLETION,
+  SEND_PROMPT_BEGIN,
+} from "./action";
 
 const initialState = {
-    coverLetter: false,
-    completion: false,
-}
+  isLoading: false,
+  displayPrompt: true,
+  displayCompletion: false,
+  completion: "",
+};
 
 const AppContext = React.createContext();
-const apiKey = process.env.OPENAI_API_KEY;
 
-// Axios
-const client = axios.create({
-    headers: {
-      Authorization: "Bearer " + apiKey,
-    },
-  });
+const AppProvider = ({ children }) => {
+  const [state, dispatch] = useReducer(reducer, initialState);
 
-const AppProvider = ({children}) => {
-    const [state, dispatch] = useReducer(reducer, initialState);
+  const displayCoverLetter = () => {
+    dispatch({ type: DISPLAY_COVERRLETTER });
+  };
 
+  const displayCompletion = async (promptData) => {
+    dispatch({ type: SEND_PROMPT_BEGIN })
+    
+    const DAVINCINLP_API = process.env.REACT_APP_DAVINCINLP_API;
+    console.log(DAVINCINLP_API);
 
-    const displayCoverLetter = () => {
-        dispatch({type: DISPLAY_COVERRLETTER});
-    };
+    try {
+      const { data } = await axios.post(`${DAVINCINLP_API}`, promptData);
+      const { completion } = data;
 
-    const displayCompletion = (prompt) => {
-        const params = {
-            prompt: prompt,
-            model: "gpt-3.5-turbo",
-            max_tokens: 300,
-            temperature: 0.9,
-        }
+      console.log(completion);
+      dispatch({
+        type: DISPLAY_COMPLETION,
+        payload: completion,
+      });
+    } catch (err) {
+      console.log(err);
+    }
+  };
 
-        client.post("https://api.openai.com/v1/chat/completions", params)
-        .then((res) => {
-            console.log(res.data.choices[0].text);
-        }).catch((err) => {
-            console.log(err);
-        });
-        dispatch({type: DISPLAY_COMPLETION});
-    };
+  return (
+    <AppContext.Provider
+      value={{
+        ...state,
+        displayCoverLetter,
+        displayCompletion,
+      }}
+    >
+      {children}
+    </AppContext.Provider>
+  );
+};
 
-    return (
-        <AppContext.Provider value={{
-            ...state,
-            displayCoverLetter,
-            displayCompletion,
-        }}>
-            {children}
-        </AppContext.Provider>
-    );
-}
+const useAppContext = () => {
+  return useContext(AppContext);
+};
 
-const useGlobalContext = () => {
-    return useContext(AppContext);
-}
-
-export {AppContext, initialState,  AppProvider, useGlobalContext};
+export { initialState, useAppContext, AppProvider };

@@ -284,6 +284,12 @@ button:focus {
   color: #cd5ff8;
 }
 
+.main-paragraph {
+  font-size: 1.5em !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+
 .Typewriter__wrapper {
   font-size: 2.2em !important;
   color: #be6adf !important;
@@ -765,5 +771,17 @@ button:focus {
 .coverletter-card-view {
   border: none !important;
   color: rgb(128, 123, 123) !important;
-  background-color: pink !important;
+  background-image: linear-gradient(to bottom right, rgb(245, 125, 183), rgb(251, 194, 240)) !important;
+}
+
+.completion-card-view {
+  border: none !important;
+  color: rgb(249, 248, 248) !important;
+  background-image: linear-gradient(to bottom right, rgb(95, 82, 160), rgb(35, 35, 37)) !important;
+}
+
+.coverletter-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
