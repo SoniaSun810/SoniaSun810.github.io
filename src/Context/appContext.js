@@ -28,7 +28,6 @@ const AppProvider = ({ children }) => {
     dispatch({ type: SEND_PROMPT_BEGIN })
     
     const DAVINCINLP_API = process.env.REACT_APP_DAVINCINLP_API;
-    console.log(DAVINCINLP_API);
 
     try {
       const { data } = await axios.post(`${DAVINCINLP_API}`, promptData);
