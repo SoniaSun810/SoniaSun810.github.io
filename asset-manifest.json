@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.09da2598.css",
-    "main.js": "/static/js/main.965e9083.js",
+    "main.css": "/static/css/main.f7404be4.css",
+    "main.js": "/static/js/main.a1e4aa74.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/jobify3.png": "/static/media/jobify3.ff36d0047c5efd506a0a.png",
     "static/media/jobify2.png": "/static/media/jobify2.dfd7fa823171cf848c26.png",
     "static/media/jobify1.png": "/static/media/jobify1.484cacde5326d77c70f8.png",
     "static/media/campusoffer.png": "/static/media/campusoffer.99ebef00a2de36a20030.png",
+    "static/media/quiz3.png": "/static/media/quiz3.81d5cbcc0ae5b801c012.png",
     "static/media/frontachi.png": "/static/media/frontachi.643a5ed949e2a7a7c62a.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.2649c226e20eac999a29.jpg",
     "static/media/generalachi.png": "/static/media/generalachi.cec222e959c588a1f12b.png",
+    "static/media/quiz2.png": "/static/media/quiz2.8687c2dbe714eb47fb5f.png",
+    "static/media/quiz1.png": "/static/media/quiz1.2a76d025f6d84d088976.png",
     "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/home-main.svg": "/static/media/home-main.3c7f4ecc4c403530fd81b53f4c621b40.svg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.09da2598.css.map": "/static/css/main.09da2598.css.map",
-    "main.965e9083.js.map": "/static/js/main.965e9083.js.map",
+    "main.f7404be4.css.map": "/static/css/main.f7404be4.css.map",
+    "main.a1e4aa74.js.map": "/static/js/main.a1e4aa74.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09da2598.css",
-    "static/js/main.965e9083.js"
+    "static/css/main.f7404be4.css",
+    "static/js/main.a1e4aa74.js"
   ]
 }
