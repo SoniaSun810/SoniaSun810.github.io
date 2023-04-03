@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
-function ProjectCards(props) {
+function ProjectTextCard(props) {
   return (
     <Card className="project-card-view">
       <Card.Body>
@@ -14,9 +14,6 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "left" }}>
           {props.description}
         </Card.Text>
-        <Card.Img variant="top" src={props.imgPath1} alt="card-img" />
-        <Card.Img variant="top" src={props.imgPath2} alt="card-img" />
-        <Card.Img variant="top" src={props.imgPath3} alt="card-img" />
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
@@ -41,4 +38,4 @@ function ProjectCards(props) {
     </Card>
   );
 }
-export default ProjectCards;
+export default ProjectTextCard;

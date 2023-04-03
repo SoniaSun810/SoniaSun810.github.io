@@ -74,7 +74,7 @@ const PromptCard = () => {
       <Card.Body>
         <blockquote
           className="blockquote mb-0"
-          style={{ textAlign: "justify" }}
+          style={{ textAlign: "left" }}
         >
           To generator a cover letter, please fill in the following information:
           <br />
