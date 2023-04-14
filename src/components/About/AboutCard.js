@@ -20,7 +20,10 @@ function AboutCard() {
             ability to learn quickly, think creatively and work collaboratively.
             <br />
             <br />
-            
+            • Master degree in <span className="purple">Software Engineering</span> Uiversity of California, Irvine, Sep 2022 - Dec 2023
+            <br />
+            • Master degree in <span className="purple">Electrical Engineering - Renewable Energy and Clean Technology</span> Uiversity of Manchester, UK
+
           </p>
         </blockquote>
       </Card.Body>

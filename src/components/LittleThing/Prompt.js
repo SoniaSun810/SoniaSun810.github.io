@@ -141,6 +141,7 @@ const PromptCard = () => {
               {isLoading ? "Please wait..." : "Submit"}
             </Button>
           </div>
+          <h3>{isLoading ? "I deployed the server on Azure. Due to latency, sometimes the first request takes 1 minute to get a response. But after that, everything will go smoothly. 😅" : ""}</h3>
           <br />
         </blockquote>
       </Card.Body>
