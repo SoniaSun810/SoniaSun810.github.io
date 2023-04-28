@@ -65,6 +65,19 @@ function Projects() {
           <Col md={6} className="project-card">
             <ProjectTextCard
               isBlog={false}
+              label="🛠️ Contribute to Open Source & Debugging"
+              title="OpenRefine | Java | JavaScript"
+              subTitle="jQuery, Maven"
+              description="◦ Debug and fix usage of MediaWiki API in auto-completion for fields in the Wikibase schema #5809.
+              ◦ OpenRefine (9.5k star) is an open-source data cleaning and transformation tool that operates as a standalone web application. Its architecture includes a web-based user interface, a Java-based backend engine, data import/export functionality, and extensibility through plugins and scripts."
+              ghLink="https://github.com/OpenRefine/OpenRefine/pull/5809"
+              demoLink="https://github.com/OpenRefine/OpenRefine"
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectTextCard
+              isBlog={false}
               label="🛠️ Testing & Debugging"
               title="QuestDB | Java"
               subTitle="SQL, Junit, Gradle, Mockito, SpotBugs, CheckStyle"
